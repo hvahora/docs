@@ -50,19 +50,24 @@
       "url": "https://salawat.celebratemercy.com/admin"
     },
     {
-      "name": "Database",
-      "icon": "database",
-      "url": "https://supabase.com/dashboard/project/pmzfddqowezjyjzdvipv"
-    },
-    {
       "name": "Code",
       "icon": "github",
       "url": "https://github.com/celebratemercy"
     },
     {
+      "name": "Database",
+      "icon": "database",
+      "url": "https://supabase.com/dashboard/project/pmzfddqowezjyjzdvipv"
+    },
+    {
       "name": "Deployments",
       "icon": "rocket",
       "url": "https://vercel.com/developer-celebratemercys-projects"
+    },
+    {
+      "name": "Design",
+      "icon": "droplet",
+      "url": "https://www.figma.com/files/team/1435910220577978185/recents-and-sharing?fuid=1435910216243670266"
     },
     {
       "name": "Site Builder",
@@ -73,11 +78,6 @@
       "name": "User Management",
       "icon": "user",
       "url": "https://dashboard.clerk.com/apps/app_2kyMDWAA2QqOWtFfk1hkbD2WI1a/instances/ins_2lNdx9suK2wj9GGopBoh0GR3s2F"
-    },
-    {
-      "name": "Design",
-      "icon": "droplet",
-      "url": "https://www.figma.com/files/team/1435910220577978185/recents-and-sharing?fuid=1435910216243670266"
     }
   ],
   "navigation": [
@@ -102,17 +102,13 @@
     {
       "group": "Getting Started",
       "pages": [
+        "development-tools/code-setup",
+        "development-tools/github",
+        "development-tools/database",
+        "development-tools/deployment",
+        "development-tools/design",
         "development-tools/builder",
-        "development-tools/setup",
-        "development-tools/local-development",
-        {
-          "group": "API Tools",
-          "pages": [
-            "tools/api/authentication",
-            "tools/api/endpoints",
-            "tools/api/testing"
-          ]
-        }
+        "development-tools/user-management"
       ]
     }
   ],
