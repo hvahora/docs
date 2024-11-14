@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Celebrate Mercy",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,73 +18,105 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hello@aalpha.ai"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "primaryTab": {
+    "name": "Global Salawat Site"
+  },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Global Salawat Dashboard",
+      "url": "global-salawat-dashboard"
+    },
+    {
+      "name": "Development Tools",
+      "url": "development-tools"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Global Salawat Site",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://salawat.celebratemercy.com/"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Global Salawat Dashboard",
+      "icon": "gauge",
+      "url": "https://salawat.celebratemercy.com/admin"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Database",
+      "icon": "database",
+      "url": "https://supabase.com/dashboard/project/pmzfddqowezjyjzdvipv"
+    },
+    {
+      "name": "Code",
+      "icon": "github",
+      "url": "https://github.com/celebratemercy"
+    },
+    {
+      "name": "Deployments",
+      "icon": "rocket",
+      "url": "https://vercel.com/developer-celebratemercys-projects"
+    },
+    {
+      "name": "Site Builder",
+      "icon": "trowel-bricks",
+      "url": "https://builder.io/content"
+    },
+    {
+      "name": "User Management",
+      "icon": "user",
+      "url": "https://dashboard.clerk.com/apps/app_2kyMDWAA2QqOWtFfk1hkbD2WI1a/instances/ins_2lNdx9suK2wj9GGopBoh0GR3s2F"
+    },
+    {
+      "name": "Design",
+      "icon": "droplet",
+      "url": "https://www.figma.com/files/team/1435910220577978185/recents-and-sharing?fuid=1435910216243670266"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "global-salawat-challenge/home",
+        "global-salawat-challenge/global-rankings",
+        "global-salawat-challenge/organizations"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Getting Started",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "global-salawat-dashboard/analytics",
+        "global-salawat-dashboard/pledges",
+        "global-salawat-dashboard/organizations",
+        "global-salawat-dashboard/donations",
+        "global-salawat-dashboard/settings"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Getting Started",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "development-tools/builder",
+        "development-tools/setup",
+        "development-tools/local-development",
+        {
+          "group": "API Tools",
+          "pages": [
+            "tools/api/authentication",
+            "tools/api/endpoints",
+            "tools/api/testing"
+          ]
+        }
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   }
