@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Celebrate Mercy",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/celebratemercy-logo.jpg",
+    "light": "/logo/celebratemercy-logo.jpg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -21,10 +21,6 @@
       "url": "mailto:hello@aalpha.ai"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
   "primaryTab": {
     "name": "Global Salawat Site"
   },
@@ -111,9 +107,5 @@
         "development-tools/user-management"
       ]
     }
-  ],
-  "footerSocials": {
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+  ]
 }
